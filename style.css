@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+    font-family: "Lato", sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header-container{
+    width: 1920px;
+    height: 850px;
+    background: rgba(229, 84, 115, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content {
+    margin-left: 170px;
+}
+.header-container h1{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.header-container p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.btn{
+    border-radius: 8px;
+    color: white;
+    background: rgb(229, 84, 115);
+    position: relative;
+    width: 177px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 43px 20px 43px;
+    border: none;
+    font-size: 1.2rem;
+}
+.first-img{
+    margin-right: 200px;
+    margin-top: 53px;
+}
+.flower-content{
+    margin-left: 700px;
+    margin-top: 120px;
+}
+.flower-content h1{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.flower-content p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;    
+} 
+ .flower-img img{
+    height: 450px;
+    width: 390px;
+    margin-left: 150px;
+    margin-top: 120px;
+    border-radius: 300px 300px 0px 0px;
+ }
+ .pinky{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+ }
+.day-container{
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.day-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.sale-container{
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
+}
+.sale-content h1{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.sale-content p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.insta-container{
+    margin-top: 120px;
+}
+.insta-content{
+    text-align: center;
+}
+.insta-content h1{
+    margin-bottom: 30px;
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.insta-content p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    }
+.insta-images{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.item{
+    width: 342px;
+    height: 396px;
+    border-style: inset;
+}
+.deal-container{
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    background: url(./images/latest-deals-bg.png);
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.deal-content{
+    text-align: center;
+    border: 1px solid transparent;
+}
+.deal-content h1{
+    margin-top: 140px;
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.deal-content p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+form input{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-top: 70px;
+    margin-left: 290px;
+    font-size: 1rem;
+}
+.last-btn{
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    color: white;
+    background: rgb(229, 84, 115);
+    font-size: 1rem;
+    margin-left: 7px;
+}
+.end-container{
+    width: 1922px;
+    height: 449px;
+    background: rgb(17, 16, 16);
+    margin-top: 120PX;
+}
+.end-content{
+    color: white;
+    text-align: center;
+    border: 2px solid transparent;
+}
+.end-content h1{
+    margin-top: 150px;
+    margin-bottom: 30px;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+}
+.end-content h5{
+    color: rgba(255, 255, 255, 0.4);
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+}
